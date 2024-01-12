@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  display: flex;
+  align-items: center;
+  background-color: rgb(81, 81, 81);
+  flex-direction: column;
+}
+.part1
+{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  max-width: 600px;
+  background-color: rgb(56, 52, 52);
+  padding: 15px;
+  border-radius: 7px;
+  color: rgb(19, 18, 18);
+  margin: 30px auto;
+  height: 100vh;
+  align-items: center;
+  color: white;
+  text-align: center;
+
+}
+.find
+{
+  background-color: lightgrey;
+display: flex;
+align-items: center;
+width: 80%;
+padding: 10px;
+margin: 10px auto;
+border-radius: 12px;
+
+}
+.text
+{
+  border-radius: 12px;
+  background-color: lightgrey;
+  font-weight: 10px;
+  font-size: 20px;
+  margin-left: 12px;
+  width: 80%;
+  border: none;
+  height: 100%;
+  color: black;
+  outline: none;
+
+}
+.btn{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  
+}
+.btn img{
+  padding: 1px 1px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+.extrainf
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+  
+}
+.extra{
+  
+  font-size: 18px;
+  font-weight: 10px;
+  margin: 20px 30px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.extra p{
+  padding-left: 10px;
+}
+
+
+.weather
+{
+  margin: 10px;
+  margin-top: 30px;
+  display: none;
+}
+.weather h1
+{
+  font-size: 36px;
+  font-weight: 12px;
+}
+.weather h2{
+  font-size: 28px;
+  font-weight: 10px;
+}
+.extra img
+{
+  margin-right: 4px;
+  width: 100px;
+  height: 100px;
+  border-radius: 45%;
+  
+  
+}
